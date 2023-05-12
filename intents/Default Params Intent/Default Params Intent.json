@@ -1,0 +1,6 @@
+{
+  "name": "a187a036-80a1-469d-808e-8ffd733ef7d4",
+  "displayName": "Default Params Intent",
+  "priority": 500000,
+  "description": "Send Params to webhook"
+}

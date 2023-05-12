@@ -1,0 +1,31 @@
+{
+  "name": "3dde73c1-4782-4408-a817-6e4fcfb07d27",
+  "displayName": "Webhook hardcoded text",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This is a text from DialogFlow: I'm in paso 1" ]
+      },
+      "languageCode": "es"
+    } ],
+    "webhook": "Webhook welcome",
+    "tag": "Webhook welcome message"
+  },
+  "transitionRoutes": [ {
+    "intent": "End",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This is a message from DialogFlow: Bye" ]
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "Webhook bye",
+      "tag": "Default welcome"
+    },
+    "name": "003fc62c-26e2-48c6-b7bd-a7e4886d58ff"
+  } ]
+}

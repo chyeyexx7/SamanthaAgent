@@ -1,0 +1,10 @@
+{
+  "name": "ed5926a6-70e1-4dbe-bc45-302c235107f5",
+  "displayName": "Webhook params",
+  "genericWebService": {
+    "uri": "https://Samantha-Webhook-Testing.changye.repl.co/webhook/params"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

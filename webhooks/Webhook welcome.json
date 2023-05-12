@@ -1,0 +1,10 @@
+{
+  "name": "f443dadf-db11-4c68-afab-e724498bd373",
+  "displayName": "Webhook welcome",
+  "genericWebService": {
+    "uri": "https://samantha-webhook-testing.changye.repl.co/webhook"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

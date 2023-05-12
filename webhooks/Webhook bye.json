@@ -1,0 +1,10 @@
+{
+  "name": "280f4116-ff79-4a84-a8cc-7e7422dce76f",
+  "displayName": "Webhook bye",
+  "genericWebService": {
+    "uri": "https://Samantha-Webhook-Testing.changye.repl.co/webhook/bye"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

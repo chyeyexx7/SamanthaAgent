@@ -1,0 +1,58 @@
+{
+  "name": "c8e1cc8c-972e-4996-bb4a-64c39e33ad3e",
+  "displayName": "Webhook testing",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "detectado bienvenida default" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Webhook hardcoded text",
+    "name": "425f73ff-bfc2-46c2-9c7d-42be315de6c3"
+  }, {
+    "intent": "Default Params Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Webhook params",
+    "name": "87219a07-9ed4-4568-b8e4-0915050708d8"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "a57deba6-22cc-4446-a4b9-23fb4756ca39"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "a0540978-7366-4ca9-9bb1-7733528c92dc"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

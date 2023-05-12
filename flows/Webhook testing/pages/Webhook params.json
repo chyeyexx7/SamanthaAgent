@@ -1,0 +1,26 @@
+{
+  "name": "94c8fb59-2f70-4dda-ac47-9e43d9f2843f",
+  "displayName": "Webhook params",
+  "form": {
+    "parameters": [ {
+      "displayName": "Author_name",
+      "required": true,
+      "entityType": "@Artists",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This is a message from DialogFlow: sending params" ]
+      },
+      "languageCode": "es"
+    } ],
+    "webhook": "Webhook params",
+    "tag": "params"
+  }
+}
